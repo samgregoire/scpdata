@@ -30,9 +30,9 @@
 ##' can be found in the source article (see *References*).
 ##'
 ##' - **Cell isolation**: Cell sorting was done on a FACS Aria III or
-##'   Aria II instrument, controlled by the DIVA software package and
+##'   Aria II instrument,
 ##'   operated with a 100 microm nozzle. Cells were sorted at single-cell
-##'   resolution, into a 384-well Eppendorf LoBind PCR plate containing
+##'   resolution, into a 384-well plate containing
 ##'   1 microL of lysis buffer.
 ##' - **Sample preparation** Single-cell protein lysates were digested
 ##'   overnight at 37°C with 2 ng of Trypsin supplied in 1 microL of
@@ -41,22 +41,21 @@
 ##'   done using an I-DOT One instrument.
 ##' - **Liquid chromatography**: Chromatographic separation of peptides
 ##'   was conducted on a vanquish Neo UHPLC system connected to a 50 cm
-##'   uPAC Neo Low-load and an EASY-spray. Autosampler and injection
-##'   valves were configured to perform direct injections from a 384
-##'   well plate using a 25 uL injection loop on 11.8 min gradients.
+##'   uPAC Neo Low-load and an EASY-spray. Samples were injected
+##'   directly from a 384 well plate using a 25 microL injection loop
+##'   on 11.8 min gradients.
 ##' - **Mass spectrometry**: Acquisition was conducted with an Orbitrap
-##'   Astral mass spectrometer operated in positive mode with the
-##'   FAIMSPro interface compensation voltage set to -45 V.
+##'   Astral mass spectrometer coupled with the FAIMSPro interface.
 ##'   MS1 scans were acquired with the Orbitrap at a resolution of
 ##'   120,000 and a scan range of 400 to 900 m/z with normalized
 ##'   automatic gain control (AGC) target of 300 % and maximum
-##'   injection time of 246 ms. Data independent acquisition of MS2
-##'   spectra was performed in the Astral using loop control set to 0.7
-##'   seconds per cycle with varying isolation window widths and
-##'   injection times. Fragmentation of precursor ions was performed
-##'   using higher energy collisional dissociation (HCD) using a
-##'   normalized collision energy (NCE) of 25 %. AGC target was set to
-##'   800 %.
+##'   injection time of 246 ms. MS2 scans were acquired in data
+##'   independent acquisition mode by the Astral using loop control set
+##'   to 0.7 seconds per cycle with 15m/z isolation window widths and
+##'   65ms injection times. Fragmentation of precursor ions was
+##'   performed using higher energy collisional dissociation (HCD) with
+##'   a normalized collision energy (NCE) of 25 %. AGC target was set
+##'   to 800 %.
 ##' - **Raw data processing**: Raw files were processed using
 ##'   Spectronaut version 17. Direct DIA analysis was performed in
 ##'   pipeline mode. Pulsar searches were performed without fixed
